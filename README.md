@@ -1,16 +1,14 @@
 ![WSL Ubuntu version](https://img.shields.io/badge/WSL%202-Ubuntu%2020.04-orange.svg)
 
 # scripts
-A collection of scripts for setting up WSL.
+A collection of scripts for setting up development environments. For example, the following cURL command downloads and runs the setup-P5 script:
 
-The following cURL command downloads and runs the setup-WSL script:
 ```bash
-curl -fsSL https://raw.githubusercontent.com/AAU-Dat/scripts/main/setup-WSL.sh | bash 
+curl -fsSL https://raw.githubusercontent.com/AAU-Dat/scripts/main/setup-P5.sh | bash 
 ```
 
 ## Next steps
-1. Script to setup VS Code with the correct extensions.
-2. Script for starting new LaTeX project from AAU template.
-3. Potentially semester spicific tool installation?
-4. CLI for AAU projects - New project, minutes, agenda, etc.?
-5. Guides and handbooks - studium generale.
+1. Script for starting new LaTeX project from AAU template.
+2. Potentially semester specific tool installation?
+3. CLI for AAU projects - New project, minutes, agenda, etc.?
+4. Guides and handbooks - studium generale.
