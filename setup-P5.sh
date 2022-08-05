@@ -1,7 +1,7 @@
 #!/bin/bash
 
 {
-LIST_OF_PACKAGES="build-essential unzip bat python3-pygments python-is-python3 python3 python3-pip ipython3 postgresql postgresql-contrib"
+LIST_OF_PACKAGES="build-essential unzip bat python3-pygments python-is-python3 python3 python3-pip ipython3 postgresql postgresql-contrib texlive-full"
 BAT_ALIAS="alias cat='batcat --paging=never'"
 
 echo This script installs the recommended packages for the 5th semester at AAU: C compiler, python basics, postgresql, and LaTeX, and downloads the aipython libraries.
