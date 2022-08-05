@@ -1,7 +1,7 @@
 #!/bin/bash
 
 {
-LIST_OF_PACKAGES="build-essential unzip bat python3-pygments python-is-python3 python3 python3-pip ipython3 postgresql postgresql-contrib texlive-full"
+LIST_OF_PACKAGES="build-essential unzip bat python3-pygments python-is-python3 python3 python3-pip ipython3 postgresql postgresql-contrib"
 BAT_ALIAS="alias cat='batcat --paging=never'"
 LOCAL_BIN_EXPORT='export PATH=$HOME/.local/bin:$PATH'
 
