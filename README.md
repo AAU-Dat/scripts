@@ -4,7 +4,7 @@
 A collection of scripts for setting up development environments. For example, the following cURL command downloads and runs the setup-P5 script:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/AAU-Dat/scripts/main/setup-P5.sh | bash 
+curl -fsSL https://raw.githubusercontent.com/AAU-Dat/scripts/main/setup-P6.sh | bash 
 ```
 
 ## Next steps
