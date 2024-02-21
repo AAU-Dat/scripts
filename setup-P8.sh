@@ -1,6 +1,6 @@
 #!/bin/bash
 {
-LIST_OF_PACKAGES="build-essential gdb unzip bat python-is-python3 texlive-full wslu"
+LIST_OF_PACKAGES="build-essential gdb unzip bat python-is-python3 texlive-full wslu pip"
 
 echo This script installs the recommended packages for the 8th semester at AAU: C compiler and Haskell.
 
@@ -11,6 +11,7 @@ export PATH=$HOME/.local/bin:$PATH
 sudo apt update && sudo apt upgrade -y && sudo apt install ${LIST_OF_PACKAGES} -y
 sudo apt autoremove -y
 
-curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
+pip install -U pip
+pip install -U matplotlib jupyterlab pandas Jinja2 scikit-learn
 
 }
